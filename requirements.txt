@@ -1,0 +1,3 @@
+pandas
+rpy2
+matplotlib
