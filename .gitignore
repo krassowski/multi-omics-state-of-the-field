@@ -1,3 +1,13 @@
+# Custom
+.virtual_documents/
+easy_entrez/
+archive/
+pictures/
+notes/
+papers/
+*.cache
+*.pickle
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
