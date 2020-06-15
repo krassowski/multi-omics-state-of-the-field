@@ -1,3 +1,7 @@
 pandas
 rpy2
 matplotlib
+#display_xml
+#sklearn
+#umap-learn
+data-vault

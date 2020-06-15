@@ -1,6 +1,7 @@
 import xmltodict
 import json
 from xml.etree import ElementTree
+from display_xml import XML
 
 
 def xml_element_to_json(element: ElementTree.Element):
@@ -11,3 +12,7 @@ def xml_element_to_json(element: ElementTree.Element):
             )
         )
     ))
+
+
+def display_xml(element):
+    return XML(ElementTree.tostring(element))
