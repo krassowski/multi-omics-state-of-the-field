@@ -3,6 +3,7 @@ terms_colors = c(
     'pan-omics'='#FF9D9A',
     'trans-omics'='#c85200',
     'poly-omics'='#57606c',
+    'cross-omics'='#9D7660',
     'multi-table omics'='#FFBE7D',
     'multi-source omics'='#F1CE63',
     'multi-view omics'='#EDC948',

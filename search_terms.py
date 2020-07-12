@@ -1,4 +1,4 @@
-search_in = '[Text Words]'  # needed as otherwise we were getting articles from with {'Affiliation': 'Panomics, Inc., 2003 East Bayshore Road, Redwood City, CA 94063, USA}
+search_in = '[Text Words]'  # needed as otherwise we were getting articles with {'Affiliation': 'Panomics, Inc., 2003 East Bayshore Road, Redwood City, CA 94063, USA}
 
 
 def gernerate_term_variations(prefix: str, suffix: str):
@@ -20,7 +20,7 @@ def generate_compound_terms(prefix: str, suffix: str, context: str):
 
 primary_terms = {
     f'{term}-omics': gernerate_term_variations(term, 'omic')
-    for term in ['multi', 'pan', 'trans', 'poly']
+    for term in ['multi', 'pan', 'trans', 'poly', 'cross']
 }
 
 
