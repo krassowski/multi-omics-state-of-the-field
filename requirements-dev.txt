@@ -1,0 +1,5 @@
+tabulate
+jupyterlab
+jupyter-lsp
+jupyterlab-git
+pytest
