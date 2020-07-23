@@ -1,5 +1,7 @@
 # Multi-omics: state of the field
 
+[![Build Status](https://travis-ci.com/krassowski/multi-omics-state-of-the-art.svg?token=JhArfvq99eozHLbsktv8&branch=master)](https://travis-ci.com/krassowski/multi-omics-state-of-the-art)
+
 Analyses for "Simple Rules for Doing A Multi-Omics Analysis: Current State of the Art"
 
 ### Setup and requirements
