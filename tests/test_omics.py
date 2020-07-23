@@ -11,7 +11,8 @@ def test_ome_re():
     assert findall(ome_re, 'genome') == ['genome']
     assert findall(ome_re, '(genome') == ['genome']
     assert findall(ome_re, 'genome proteome') == ['genome', 'proteome']
-    assert findall(ome_re, 'whole-exome') == ['whole-exome', 'exome']
+    assert findall(ome_re, 'whole-exome') == ['whole-exome']
+    assert findall(ome_re, 'we highlight genome-proteome interactions') == ['genome', 'proteome']
 
 
 def test_omics_re():
@@ -25,7 +26,9 @@ def test_omics_re():
     assert findall(omics_re, 'prote-omic') == ['prote-omic']
     assert findall(omics_re, 'prote-omics') == ['prote-omic']
 
-    assert findall(omics_re, 'radio-genomics') == ['radio-genomic', 'genomic']
+    # we do not want to count post-genomics as a reference to genomics
+    # as such a reference is likely to occur in some proteomic papers
+    assert findall(omics_re, 'post-genomics') == ['post-genomic']
 
     assert findall(omics_re, 'transcriptomic proteomic') == ['transcriptomic', 'proteomic']
     assert findall(omics_re, 'transcriptomic-proteomic') == ['transcriptomic', 'proteomic']

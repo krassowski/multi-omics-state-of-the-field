@@ -1,5 +1,5 @@
 from re import escape
-separators = {'/', '"', "'", '-', '(', ')'}
+separators = {'/', '"', "'", '(', ')'}
 separators_re = '|'.join([escape(s) for s in separators])
 
 
@@ -7,7 +7,7 @@ def get_ome_regexp() -> str:
     return (
         # use look-ahead to allow for overlaps
         '(?='
-            rf'(?:^|\s|{separators_re})'
+            rf'(?:^|\s|{separators_re}|ome-)'
             '('
                 r'(?:\w+)ome'
                 '|'
@@ -15,7 +15,7 @@ def get_ome_regexp() -> str:
             ')'
             # also, match plural form
             '(?:s)?'
-            rf'(?:\s|$|{separators_re})'
+            rf'(?:\s|$|{separators_re}|-)'
         ')'
     )
 
@@ -24,7 +24,7 @@ def get_omics_regexp() -> str:
     return (
         # use look-ahead to allow for overlaps
         '(?='
-            rf'(?:^|\s|{separators_re})'
+            rf'(?:^|\s|{separators_re}|omic-)'
             # match '*-omic', '*-*omic', '*omic'
             '('
                 # handle both *omic-*omic and *-*omic
@@ -34,6 +34,6 @@ def get_omics_regexp() -> str:
             ')'
             # match both *omic and omics, but capture only "omic" part
             '(?:s)?'
-            rf'(?:\s|$|{separators_re})'
+            rf'(?:\s|$|{separators_re}|-)'
         ')'
     )
