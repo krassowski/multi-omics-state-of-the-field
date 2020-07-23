@@ -75,3 +75,15 @@ def create_typos_map(
         for (rare_term, term), need_changing in is_typo.items()
         if need_changing
     }
+
+
+def prefix_remover(prefix: str, enforce=True):
+    def remove_prefix(text: str):
+        if text.startswith(prefix):
+            return text[len(prefix):]
+        else:
+            if enforce:
+                raise ValueError(f'Prefix {prefix!r} missing in {text!r}')
+            else:
+                return text
+    return remove_prefix
