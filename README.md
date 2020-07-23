@@ -25,5 +25,5 @@ pip install -r requirements-dev.txt
 Execute tests with:
 
 ```bash
-pytest
+python3 -m pytest
 ```
