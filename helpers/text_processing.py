@@ -26,9 +26,11 @@ def highlight_first(text: str, keyword: str, margin: int = 50):
     return text[max(0, pos - margin):min(pos + margin, len(text))]
 
 
-def check_usage(term, data: DataFrame, column: str):
+def check_usage(term, data: DataFrame, column: str, words=True, highlight=None):
     # \b = a word break
-    return data[data[column].str.contains(fr'\b{escape(term)}\b')][column].apply(highlight_first, keyword=term)
+    search_term = fr'\b{escape(term)}\b' if words else term
+    highlight = highlight if highlight else term
+    return data[data[column].str.contains(search_term)][column].apply(highlight_first, keyword=highlight)
 
 
 def sequence_similarity_ratio(a: str, b: str):
