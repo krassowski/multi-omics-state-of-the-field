@@ -26,11 +26,20 @@ def highlight_first(text: str, keyword: str, margin: int = 50):
     return text[max(0, pos - margin):min(pos + margin, len(text))]
 
 
-def check_usage(term, data: DataFrame, column: str, words=True, highlight=None):
+def check_usage(
+    term: str, data: DataFrame, column: str,
+    words: bool = True, highlight: str = None, limit: int = None
+):
+    """
+    highlight - defaults to term"""
     # \b = a word break
     search_term = fr'\b{escape(term)}\b' if words else term
     highlight = highlight if highlight else term
-    return data[data[column].str.contains(search_term)][column].apply(highlight_first, keyword=highlight)
+    is_match = data[column].str.contains(search_term)
+    results = data[is_match][column].apply(highlight_first, keyword=highlight)
+    if limit:
+        results = results.head(limit)
+    return results
 
 
 def sequence_similarity_ratio(a: str, b: str):
@@ -65,11 +74,11 @@ def create_typos_map(
         potential_typos: a frame returned by find_term_typos
         is_typo: manual mapping of tuple (rare_term, popular_term) to boolean values
     """
-    assert (
-        set(is_typo.keys())
-        ==
-        set(potential_typos[['rare_term', 'popular_term']].apply(tuple, axis=1))
-    )
+    recieved_set = set(is_typo.keys())
+    expected_set = set(potential_typos[['rare_term', 'popular_term']].apply(tuple, axis=1))
+    if recieved_set != expected_set:
+        raise ValueError(f'{recieved_set - expected_set} too much, {expected_set - recieved_set} missing')
+
     return {
         rare_term: term
         for (rare_term, term), need_changing in is_typo.items()
@@ -87,3 +96,22 @@ def prefix_remover(prefix: str, enforce=True):
             else:
                 return text
     return remove_prefix
+
+
+def report_hyphenation_trends(terms: Series) -> DataFrame:
+    counts = terms.value_counts()
+    mapping = []
+    for i, more_popular_term in enumerate(counts.index):
+        for other_term in list(counts.index)[i + 1:]:
+            if more_popular_term.replace('-', '') == other_term.replace('-', ''):
+                mapping.append({
+                    'more_popular': more_popular_term,
+                    'less_popular': other_term
+                })
+    return DataFrame(mapping)
+
+
+def harmonise_hyphenation(terms: Series, trends: DataFrame):
+    return terms.replace(
+        trends.set_index('less_popular').more_popular.to_dict()
+    )
