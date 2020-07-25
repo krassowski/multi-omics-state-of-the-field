@@ -1,4 +1,5 @@
 uid,title,link,is_comp_method,is_tool,is_annotation_tool,is_database,is_application,is_benchmark,has_comparisons,comment
+21619611,Identifier mapping performance for integrating transcriptomics and proteomics experimental results.,https://doi.org/10.1186/1471-2105-12-213,y,,,,,,,
 24830643,Cross-platform toxicogenomics for the prediction of non-genotoxic hepatocarcinogenesis in rat.,https://doi.org/10.1371/journal.pone.0097640,,,,,y,,y,
 24884486,A multivariate approach to the integration of multi-omics datasets.,https://doi.org/10.1186/1471-2105-15-162,y,,,,,,y,
 25137136,Integrating multi-omics for uncovering the architecture of cross-talking pathways in breast cancer.,https://doi.org/10.1371/journal.pone.0104282,y,,,,,,,
