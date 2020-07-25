@@ -17,6 +17,8 @@ def test_ome_re():
     assert findall(ome_re, 'www.mycancergenome.org') == []
     assert findall(ome_re, 'cancergenome.nih.gov') == []
     assert findall(ome_re, 'cancergenome.nih/gov') == []
+    assert findall(ome_re, 'metabolome: ') == ['metabolome']
+    assert findall(ome_re, 'metabolome; ') == ['metabolome']
 
 def test_omics_re():
 

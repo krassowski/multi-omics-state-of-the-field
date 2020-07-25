@@ -4,7 +4,7 @@ from typing import Dict
 from pandas import DataFrame, Series
 
 
-separators = {'/', '"', "'", '(', ')', ','}
+separators = {'/', '"', "'", '(', ')', ',', ';', ':'}
 final_dot_not_url_part = '\.(?:$|\s)'
 separators_re = '|'.join([escape(s) for s in separators])
 
