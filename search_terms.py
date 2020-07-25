@@ -39,5 +39,6 @@ def pluralize(simple_term: str):
 
 descriptive_terms = {
     'integrative omics': pluralize('integrative omic'),
-    'integrated omics': pluralize('integrated omic')
+    'integrated omics': pluralize('integrated omic'),
+    'integromics': pluralize('integromic')
 }
