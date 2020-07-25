@@ -4,7 +4,8 @@ from typing import Dict
 from pandas import DataFrame, Series
 
 
-separators = {'/', '"', "'", '(', ')'}
+separators = {'/', '"', "'", '(', ')', ','}
+final_dot_not_url_part = '\.(?:$|\s)'
 separators_re = '|'.join([escape(s) for s in separators])
 
 
@@ -20,7 +21,7 @@ def get_ome_regexp() -> str:
             ')'
             # also, match plural form
             '(?:s)?'
-            rf'(?:\s|$|{separators_re}|-)'
+            rf'(?:\s|$|{separators_re}|{final_dot_not_url_part}|-)'
         ')'
     )
 
@@ -39,7 +40,7 @@ def get_omics_regexp() -> str:
             ')'
             # match both *omic and omics, but capture only "omic" part
             '(?:s)?'
-            rf'(?:\s|$|{separators_re}|-)'
+            rf'(?:\s|$|{separators_re}|{final_dot_not_url_part}|-)'
         ')'
     )
 
