@@ -1,0 +1,81 @@
+uid,title,link,is_comp_method,is_tool,is_annotation_tool,is_database,is_application,is_benchmark,has_comparisons,comment
+24830643,Cross-platform toxicogenomics for the prediction of non-genotoxic hepatocarcinogenesis in rat.,https://doi.org/10.1371/journal.pone.0097640,,,,,y,,y,
+24884486,A multivariate approach to the integration of multi-omics datasets.,https://doi.org/10.1186/1471-2105-15-162,y,,,,,,y,
+25137136,Integrating multi-omics for uncovering the architecture of cross-talking pathways in breast cancer.,https://doi.org/10.1371/journal.pone.0104282,y,,,,,,,
+25149441,Using Galaxy-P to leverage RNA-Seq for the discovery of novel protein variations.,https://doi.org/10.1186/1471-2164-15-703,,,y,,,,,workflow with main function being annotation
+25972803,Critical periods after stroke study: translating animal stroke recovery experiments into a clinical trial.,https://doi.org/10.3389/fnhum.2015.00231,,,,,y,,,
+26157799,How to build personalized multi-omics comorbidity profiles.,https://doi.org/10.3389/fcell.2015.00028,y,,,,,,,
+26560100,Integrative phenotyping framework (iPF): integrative clustering of multiple omics data identifies novel lung disease subphenotypes.,https://doi.org/10.1186/s12864-015-2170-4,y,,,,,,,
+26626453,Fast dimension reduction and integrative clustering of multi-omics data using low-rank approximation: application to cancer molecular classification.,https://doi.org/10.1186/s12864-015-2223-8,y,,,,,,,
+26822202,Deep brain stimulation-associated brain tissue imprints: a new in vivo approach to biological research in human Parkinson's disease.,https://doi.org/10.1186/s13024-016-0077-4,,,,,y,,,
+26864072,Integrative modeling of multi-omics data to identify cancer drivers and infer patient-specific gene activity.,https://doi.org/10.1186/s12918-016-0260-9,y,,,,,,y,
+26909353,A Computational Solution to Automatically Map Metabolite Libraries in the Context of Genome Scale Metabolic Networks.,https://doi.org/10.3389/fmolb.2016.00002,,,y,,,,,
+27042856,Identification of Epigenetic Biomarkers of Lung Adenocarcinoma through Multi-Omics Data Analysis.,https://doi.org/10.1371/journal.pone.0152918,,,,,y,,,
+27081328,Network-Based Enriched Gene Subnetwork Identification: A Game-Theoretic Approach.,https://doi.org/10.4137/BECB.S38244,y,,,,,,,
+27100883,OM-FBA: Integrate Transcriptomics Data with Flux Balance Analysis to Decipher the Cell Metabolism.,https://doi.org/10.1371/journal.pone.0154188,y,,,,,,y,
+27128319,The Ontology for Biomedical Investigations.,https://doi.org/10.1371/journal.pone.0154556,,,,y,,,,
+27329642,An integrative imputation method based on multi-omics datasets.,https://doi.org/10.1186/s12859-016-1122-6,y,,,,,,y,comparison against single-omics
+27378931,Cancer Markers Selection Using Network-Based Cox Regression: A Methodological and Computational Practice.,https://doi.org/10.3389/fphys.2016.00208,y,,,,,,,
+27434182,LATS2 Positively Regulates Polycomb Repressive Complex 2.,https://doi.org/10.1371/journal.pone.0158562,,,,,y,,,
+27640647,"Multiplexed, targeted profiling of single-cell proteomes and transcriptomes in a single reaction.",https://doi.org/10.1186/s13059-016-1045-6,,,,,,,,wetlab method
+27716030,Handling missing rows in multi-omics data integration: multiple imputation in multiple factor analysis framework.,,y,,,,,,y,
+27814671,Mergeomics: multidimensional data integration to identify pathogenic perturbations to biological systems.,,,y,,,,,,implements MSEA
+27833650,"Protocol: a fast, comprehensive and reproducible one-step extraction method for the rapid preparation of polar and semi-polar metabolites, lipids, proteins, starch and cell wall polymers from a single sample.",,,,,,,,,wetlab method
+27923386,DIVAN: accurate identification of non-coding disease-specific risk variants using multi-omics profiles.,,y,,,,,,y,comparisons to other variant prioritization methods
+28005952,MicroRNA and Transcription Factor Gene Regulatory Network Analysis Reveals Key Regulatory Elements Associated with Prostate Cancer Progression.,https://doi.org/10.1371/journal.pone.0168760,,,,,y,,,
+28738873,MATCHER: manifold alignment reveals correspondence between single cell transcriptome and epigenome dynamics.,https://doi.org/10.1186/s13059-017-1269-0,y,,,,,,,
+28747816,Prediction With Dimension Reduction of Multiple Molecular Data Sources for Patient Survival.,https://doi.org/10.1177/1176935117718517,,,,,y,,,"neither JIVE is new, nor is it first R.JIVE pub"
+28750683,Identification of novel prostate cancer drivers using RegNetDriver: a framework for integration of genetic and epigenetic alterations with tissue-specific regulatory network.,https://doi.org/10.1186/s13059-017-1266-3,y,,,,,,,
+28768687,HIT'nDRIVE: patient-specific multidriver gene prioritization for precision oncology.,https://doi.org/10.1101/gr.221218.117,y,,,,,,y,compared to DriverNet
+28817585,Selecting targets for the diagnosis of Schistosoma mansoni infection: An integrative approach using multi-omic and immunoinformatics data.,https://doi.org/10.1371/journal.pone.0182299,,,,,y,,,
+29023486,The sea cucumber genome provides insights into morphological evolution and visceral regeneration.,https://doi.org/10.1371/journal.pbio.2003790,,,,,y,,,
+29033902,"Analyzing the Complex Regulatory Landscape of Hfq - an Integrative, Multi-Omics Approach.",https://doi.org/10.3389/fmicb.2017.01784,,,,,y,,,"close to a very simple method (correlations), but too basic"
+29270229,Sparse generalized linear model with  approximation for feature selection and prediction with big omics data.,https://doi.org/10.1186/s13040-017-0159-z,y,,,,,,y,to glmnet and SparseReg
+29343938,CINdex: A Bioconductor Package for Analysis of Chromosome Instability in DNA Copy Number Data.,https://doi.org/10.1177/1176935117746637,,y,,,,,,
+29504910,BRCA-Pathway: a structural integration and visualization system of TCGA breast cancer data on KEGG pathways.,https://doi.org/10.1186/s12859-018-2016-6,,y,,,,,,
+29545787,BURRITO: An Interactive Multi-Omic Tool for Visualizing Taxa-Function Relationships in Microbiome Data.,https://doi.org/10.3389/fmicb.2018.00365,,y,,,,,,"could be reconsidered/moved to ""visualisation"" cat. but allowed on the basis of being an analytic tool"
+29568492,Using regulatory genomics data to interpret the function of disease variants and prioritise genes from expression studies.,https://doi.org/10.12688/f1000research.13577.2,,,,,,,,bioconductor workflow
+29738578,Cancer driver mutation prediction through Bayesian integration of multi-omic data.,https://doi.org/10.1371/journal.pone.0196939,y,,,,,,y,
+29884221,Tensorial blind source separation for improved analysis of multi-omic data.,https://doi.org/10.1186/s13059-018-1455-8,y,,,,,,y,
+29898900,Principled multi-omic analysis reveals gene regulatory mechanisms of phenotype variation.,https://doi.org/10.1101/gr.227066.117,y,,,,,,y,against single-omic only?
+29925568,Multi-Omics Factor Analysis-a framework for unsupervised integration of multi-omics data sets.,https://doi.org/10.15252/msb.20178124,y,,,,,,y,against GFA and iCluster
+30208855,Priority-Lasso: a simple hierarchical approach to the prediction of clinical outcome using multi-omics data.,https://doi.org/10.1186/s12859-018-2344-6,y,,,,,,y,against standard lasso
+30234027,Comparison of Fecal Collection Methods for Microbiome and Metabolomics Studies.,https://doi.org/10.3389/fcimb.2018.00301,,,,,,,,wetlab methods comparison
+30255779,Causal modeling in a multi-omic setting: insights from GAW20.,https://doi.org/10.1186/s12863-018-0645-4,y,,,,,,y,"workshop reports, aggregates multiple works"
+30373534,Feature related multi-view nonnegative matrix factorization for identifying conserved functional modules in multiple biological networks.,https://doi.org/10.1186/s12859-018-2434-5,y,,,,,,y,"against NetsTensor, SC-ML, pairwiseCRSC, centroidCRSC"
+30419069,C/VDdb: A multi-omics expression profiling database for a knowledge-driven approach in cardiovascular disease (CVD).,https://doi.org/10.1371/journal.pone.0207371,,,,y,,,,
+30482222,"Linking single-cell measurements of mass, growth rate, and gene expression.",https://doi.org/10.1186/s13059-018-1576-0,,,,,,,,wetlab method
+30497370,Multi-omic analysis of signalling factors in inflammatory comorbidities.,https://doi.org/10.1186/s12859-018-2413-x,y,,,,,,,
+30541428,A multi-omics approach for identifying important pathways and genes in human cancer.,https://doi.org/10.1186/s12859-018-2476-8,y,,,,,,,
+30596717,Integrative multiomics study for validation of mechanisms in radiation-induced ischemic heart disease in Mayak workers.,https://doi.org/10.1371/journal.pone.0209626,,,,,y,,,integration via p-value combination
+30682099,Tolerance and dose-response assessment of subchronic dietary ethoxyquin exposure in Atlantic salmon (Salmo salar L.).,https://doi.org/10.1371/journal.pone.0211128,,,,,y,,,
+30703089,EMT network-based feature selection improves prognosis prediction in lung adenocarcinoma.,https://doi.org/10.1371/journal.pone.0204186,y,,,,,,y,against 5 other strategies!
+30838036,CaDrA: A Computational Framework for Performing Candidate Driver Analyses Using Genomic Features.,https://doi.org/10.3389/fgene.2019.00121,y,,,,,,,
+30885118,MGSEA - a multivariate Gene set enrichment analysis.,https://doi.org/10.1186/s12859-019-2716-6,y,,,,,,,"against moGSA, plus tabular description of alg differences with other"
+30921354,Phenotypic subgrouping and multi-omics analyses reveal reduced diazepam-binding inhibitor (DBI) protein levels in autism spectrum disorder with severe language impairment.,https://doi.org/10.1371/journal.pone.0214198,,,,,y,,,IPA
+30984238,Simultaneous Interrogation of Cancer Omics to Identify Subtypes With Significant Clinical Differences.,https://doi.org/10.3389/fgene.2019.00236,y,,,,,,,"against single-omics, SMF, iCluster, moCluster, Clusteromics"
+31049575,MOSClip: multi-omic and survival pathway analysis for the identification of survival associated gene and modules.,https://doi.org/10.1093/nar/gkz324,y,y,,,,,,
+31071195,Multi-omics characterization of the necrotrophic mycoparasite Saccharomycopsis schoenii.,https://doi.org/10.1371/journal.ppat.1007692,,,,,y,,,
+31120942,A multiobjective multi-view cluster ensemble technique: Application in patient subclassification.,https://doi.org/10.1371/journal.pone.0216904,y,,,,,,y,"against MVDA, LRAcluster, PINS, SNF, iClusterBayes"
+31248362,Block Forests: random forests for blocks of clinical and omics covariate data.,https://doi.org/10.1186/s12859-019-2942-y,y,,,,,y,y,"5 RF variants (VarProb, SplitWeights, BlockVarSel, RandomBlock, and BlockForest) against lasso, priority lassso IPF-lasso"
+31251748,From genomic to LC-MS/MS evidence: Analysis of PfEMP1 in Benin malaria cases.,https://doi.org/10.1371/journal.pone.0218012,,,,,y,,,
+31295267,Machine and deep learning meet genome-scale metabolic modeling.,https://doi.org/10.1371/journal.pcbi.1007084,,,,,,,,"wow, this is a review; why is it here?"
+31329928,Data-driven characterization of molecular phenotypes across heterogeneous sample collections.,https://doi.org/10.1093/nar/gkz281,y,,,,,,,"""multi-study"" part is novel, not the tSNE itself"
+31393866,Tagger-A Swiss army knife for multiomics to dissect cell type-specific mechanisms of gene expression in mice.,https://doi.org/10.1371/journal.pbio.3000374,,,,,y,,,
+31527878,Unified feature association networks through integration of transcriptomic and proteomic data.,https://doi.org/10.1371/journal.pcbi.1007241,y,,,,,,y,"GENIE3 against pearson,spearman,MIM,MRNETB,CLR,ARCANE,MINET,MRNET"
+31660856,A hierarchical integration deep flexible neural forest framework for cancer subtype classification by integrating multi-omics data.,https://doi.org/10.1186/s12859-019-3116-7,y,,,,,,y,against PCA and NMF
+31792061,Evaluation of colorectal cancer subtypes and cell lines using deep learning.,https://doi.org/10.26508/lsa.201900517,y,,,,,,y,"against MOFA, iCluster+ and PCA"
+31805986,The SMART App: an interactive web application for comprehensive DNA methylation analysis and visualization.,https://doi.org/10.1186/s13072-019-0316-3,,y,,,,,,
+31869403,"Use of >100,000 NHLBI Trans-Omics for Precision Medicine (TOPMed) Consortium whole genome sequences improves imputation quality and detection of rare variant associations in admixed African and Hispanic/Latino populations.",https://doi.org/10.1371/journal.pgen.1008500,,,,,y,,,
+31877197,Comprehensive analysis of putative dihydroflavonol 4-reductase gene family in tea plant.,https://doi.org/10.1371/journal.pone.0227225,,,,,y,,,
+31918677,Multiset sparse partial least squares path modeling for high dimensional omics data analysis.,https://doi.org/10.1186/s12859-019-3286-3,y,,,,,,y,mPLS against MOFA
+31937348,DENDRO: genetic heterogeneity profiling and subclone detection by single-cell RNA sequencing.,https://doi.org/10.1186/s13059-019-1922-x,y,,,,,,y,(not relevant)
+32014031,scAI: an unsupervised approach for the integrative analysis of parallel single-cell transcriptomic and epigenomic profiles.,https://doi.org/10.1186/s13059-020-1932-8,y,,,,,,,scAI against MOFA
+32047062,Visualizing Microbial Community Dynamics via a Controllable Soil Environment.,https://doi.org/10.1128/mSystems.00645-19,,,,,y,,,
+32127417,RETrace: simultaneous retrospective lineage tracing and methylation profiling of single cells.,https://doi.org/10.1101/gr.255851.119,,,,,,,,wet?
+32240163,Multiview learning for understanding functional multiomics.,https://doi.org/10.1371/journal.pcbi.1007677,,,,,,,,review!
+32282793,DRAMS: A tool to detect and re-align mixed-up samples for integrative studies of multi-omics data.,https://doi.org/10.1371/journal.pcbi.1007522,y,,,,,,,
+32293260,Sparse multiple co-Inertia analysis with application to integrative analysis of multi -Omics data.,https://doi.org/10.1186/s12859-020-3455-4,y,,,,,,,smCIA and ssmCIA against mCIA
+32299344,PathME: pathway based multi-modal sparse autoencoders for clustering of patient-level multi-omics data.,https://doi.org/10.1186/s12859-020-3465-2,y,,,,,,,"PathME against sNMF, SNF, iCluster"
+32393329,MOFA+: a statistical framework for comprehensive integration of multi-modal single-cell data.,https://doi.org/10.1186/s13059-020-02015-1,y,,,,,,,only in form of a table (Supplementary Table 3)?
+32503412,PS4DR: a multimodal workflow for identification and prioritization of drugs based on pathway signatures.,https://doi.org/10.1186/s12859-020-03568-5,,y,,,,,,

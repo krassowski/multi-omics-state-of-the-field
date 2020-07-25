@@ -11,3 +11,5 @@ python -m spacy download en_core_web_lg
 
 # for newer version in the future check http://www.ensembl.org/info/genome/stable_ids/prefixes.html
 wget http://Apr2020.archive.ensembl.org/info/genome/stable_ids/prefixes.html -O ensembl_prefixes.html
+
+wget https://raw.githubusercontent.com/mikelove/awesome-multi-omics/master/README.md -O awesome-multi-omics-README.md
