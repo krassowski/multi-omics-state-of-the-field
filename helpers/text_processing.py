@@ -9,16 +9,17 @@ def matches_n_consecutive_words(text: str, database: set, consecutive_n: int):
     """Check whether a phrase (one or more words separated by whitespace characters)
 
     from given database (set of phrases) is present in the provided text quickly.
-    Return the first matched phrase.
+    Return all matches phrase.
     """
     words = text.split()
+    matches = []
     for span_size in range(1, consecutive_n + 1):
         for start_position in range(0, len(words)):
             if start_position + span_size <= len(words):
                 substring = ' '.join(words[start_position:start_position + span_size])
                 if substring in database:
-                    return substring
-    return None
+                    matches.append(substring)
+    return matches
 
 
 def highlight_first(text: str, keyword: str, margin: int = 50):
