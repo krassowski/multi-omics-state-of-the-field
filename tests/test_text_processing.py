@@ -32,6 +32,13 @@ def test_matches_n_consecutive_words():
         2
     ) == []
 
+    # multiple
+    assert matches_n_consecutive_words(
+        'X lorem ipsum X lorem ipsum',
+        {'lorem ipsum', 'sit amet'},
+        2
+    ) == ['lorem ipsum', 'lorem ipsum']
+
 
 def test_prefix_remover():
     remove_test_prefix = prefix_remover('test_')
