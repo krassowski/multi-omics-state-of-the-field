@@ -1,6 +1,7 @@
 pandas
 rpy2
 matplotlib
+scipy
 #display_xml
 #sklearn
 #umap-learn
