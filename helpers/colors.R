@@ -11,5 +11,6 @@ terms_colors = c(
     'multi-block omics'='#EDC948',
     'integrative omics'='#4E79A7',
     'integrated omics'='#A0CBE8',
+    'integromics'='#4D79D7',
     'multiple'='#b3b7b8'
 )
