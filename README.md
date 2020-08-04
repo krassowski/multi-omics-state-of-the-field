@@ -15,13 +15,13 @@ Developed with:
 To install minimal requirements:
 
 ```bash
-pip install -r requirements.txt
+pip install -r setup/requirements.txt
 ```
 
-Additional requirements fro development and testing:
+Additional requirements for development and testing:
 
 ```bash
-pip install -r requirements-dev.txt
+pip install -r setup/requirements-dev.txt
 ```
 
 Execute tests with:

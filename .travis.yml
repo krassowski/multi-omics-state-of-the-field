@@ -2,7 +2,7 @@ language: python
 
 before_install:
     - sudo apt-get install -y r-base
-    - pip install -r requirements.txt
+    - pip install -r setup/requirements.txt
     - pip install pytest
 
 script:

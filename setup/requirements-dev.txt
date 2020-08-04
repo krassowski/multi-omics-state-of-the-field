@@ -3,3 +3,4 @@ jupyterlab
 jupyter-lsp
 jupyterlab-git
 pytest
+python-language-server[all]
