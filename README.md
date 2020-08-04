@@ -18,7 +18,7 @@ _other terms_ (\*\*\*) include pan-, trans-, poly-, cross-omics.
 The subpanels present:
 - A) Combinations of omics (grouped by the characterised entities) commonly discussed occurring together in multi-omics articles (intersections with degree > 2 omics and at least 50 papers).
 The proteins group (1) also includes peptides; the metabolites group (2) includes other endogenous molecules; the epigenetic group (3) encompasses all epigenetic modifications.
-- B) Trend plot representing the number of rapidly increaring multi-omics articles indexed in PubMed (also after adjusting for the number of articles published in matched journals - data not shown); the dip in 2020 can be attributed to indexing delay which was not accounted for in the current plot.
+- B) Trend plot representing the rapidly increasing number of multi-omics articles indexed in PubMed (also after adjusting for the number of articles published in matched journals - data not shown); the dip in 2020 can be attributed to indexing delay which was not accounted for in the current plot.
 - C) Distribution of articles categories that mention different numbers of omics; while it is understandable that multi-omics Reviews (category) discuss many omics, the Computational method (category) articles appear to lag behind all other article category type.
 The detected number of omics may underestimate the actual numbers (due to the automated search strategy) but this should put useful lower bound on the number of omics discussed.
 - D) The number of articles mentioning the most popular clinical findings, disease terms (here screening based is on ClinVar diseases list) and species (based upon NCBI Taxonomy database).
