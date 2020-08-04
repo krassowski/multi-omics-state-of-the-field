@@ -33,7 +33,7 @@ No manual curation to classify intend of the link inclusion (i.e. to share autho
 
 PubMed database was searched for articles pertaining to multi-omics on 25th July 2020, using fourteen terms (multi|pan|trans|poly|cross-omics, multi-table|source|view|modal|block omics, integrative omics, integrated omics and integromics) including plural/singular and hyphenated/unhyphenated variants combinations.
 The search was automated via Entrez E-utilities API and restricted to Text Words (to avoid matching articles based on the affiliation of authors to companies such as Panomics, Inc. or Integromics S.L.); the full text and additional metadata were retrieved from the PubMed Central (PMC) database for the open access subset of articles.
-The feature extraction was performed via n-gram matching against ClinVar (diseases & clinical findings) and NCBI Taxonomy (species) databases, while omics references annotation was based on regular-expression capturing phrases with suffix -ome or -omic (accounting for multi-omic phrases and plural variants).
+The feature extraction was performed via n-gram matching against ClinVar (diseases & clinical findings) and NCBI Taxonomy (species) databases, while omics references annotation was based on regular expressions capturing phrases with suffix -ome or -omic (accounting for multi-omic phrases and plural variants).
 All matches were manually filtered down to exclude false or irrelevant matches and to merge plural forms.
 The article type was collated from five sources:
 - MeSH PublicationType as provided by PubMed,
