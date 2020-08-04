@@ -16,15 +16,15 @@ _multi-view_ (\*\*) includes multi-view|block|source|modal omics,
 _other terms_ (\*\*\*) include pan-, trans-, poly-, cross-omics.
 
 The subpanels present:
-- A) Combinations of omics (grouped by the characterised entities) commonly discussed occurring together in multi-omics articles (intersections with degree > 2 and at least 50 papers).
-The proteins group (1) also includes peptides, the metabolites group (2) includes other endogenous molecules, the epigenetic group (3) encompasses all epigenetic modifications.
-- B) The number of multi-omics articles indexed in PubMed is rapidly increasing (also after adjusting for the number of articles published in matched journals - data not shown); the dip in 2020 can be attributed to indexing delay which was not accounted for.
-- C) Articles of various types mention different numbers of omics; while it is understandable that multi-omics reviews discuss many omics, the computational method articles appear to lag behind all other article types.
-The detected number of omics may underestimate the actual numbers (due to the automated search strategy) but should put useful lower bound on the number of omics discussed.
-- D) The number of articles mentioning the most popular clinical findings, disease terms (screening based on ClinVar diseases list) and species (based upon NCBI Taxonomy database).
+- A) Combinations of omics (grouped by the characterised entities) commonly discussed occurring together in multi-omics articles (intersections with degree > 2 omics and at least 50 papers).
+The proteins group (1) also includes peptides; the metabolites group (2) includes other endogenous molecules; the epigenetic group (3) encompasses all epigenetic modifications.
+- B) Trend plot representing the number of rapidly increaring multi-omics articles indexed in PubMed (also after adjusting for the number of articles published in matched journals - data not shown); the dip in 2020 can be attributed to indexing delay which was not accounted for in the current plot.
+- C) Distribution of articles categories that mention different numbers of omics; while it is understandable that multi-omics Reviews (category) discuss many omics, the Computational method (category) articles appear to lag behind all other article category type.
+The detected number of omics may underestimate the actual numbers (due to the automated search strategy) but this should put useful lower bound on the number of omics discussed.
+- D) The number of articles mentioning the most popular clinical findings, disease terms (here screening based is on ClinVar diseases list) and species (based upon NCBI Taxonomy database).
 Both databases were manually filtered down to remove ambiguous terms and merge plural/singular forms.
-Only the abstracts were screened.
-- E) The detected references to code and data versioning and distribution platforms and systems (links to repositories with deposited code/data); both the abstracts and full-texts (open-access subset, 77% of all articles) were screened.
+Only the abstracts were screened here.
+- E) The detected references to code, data versioning, distribution platforms and systems (links to repositories with deposited code/data); both the abstracts and full-texts (open-access subset, 77% of all articles) were screened.
 No manual curation to classify intend of the link inclusion (i.e. to share authors code/data vs to report the use of a datset/tool) was undertaken.
 
 
