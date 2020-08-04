@@ -1,10 +1,10 @@
 # Multi-omics: state of the field
 
-[![Build Status](https://travis-ci.com/krassowski/multi-omics-state-of-the-art.svg?token=JhArfvq99eozHLbsktv8&branch=master)](https://travis-ci.com/krassowski/multi-omics-state-of-the-art)
+[![Build Status](https://travis-ci.com/krassowski/multi-omics-state-of-the-field.svg?token=JhArfvq99eozHLbsktv8&branch=master)](https://travis-ci.com/krassowski/multi-omics-state-of-the-field)
 
 Literature analyses for "State of the Field in Multi-Omics Research: From Computational Needs to Data Mining and Sharing"
 
-## Overiew
+## Overview
 
 ![image](https://user-images.githubusercontent.com/5832902/89242343-3f12ef80-d5f9-11ea-96b3-5fe06dfd0e4d.png)
 
