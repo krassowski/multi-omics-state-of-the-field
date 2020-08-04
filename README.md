@@ -25,7 +25,7 @@ The detected number of omics may underestimate the actual numbers (due to the au
 Both databases were manually filtered down to remove ambiguous terms and merge plural/singular forms.
 Only the abstracts were screened here.
 - E) The detected references to code, data versioning, distribution platforms and systems (links to repositories with deposited code/data); both the abstracts and full-texts (open-access subset, 77% of all articles) were screened.
-No manual curation to classify intend of the link inclusion (i.e. to share authors code/data vs to report the use of a datset/tool) was undertaken.
+No manual curation to classify intend of the link inclusion (i.e. to share authors' code/data vs to report the use of a dataset/tool) was undertaken.
 
 
 ### Setup and requirements
