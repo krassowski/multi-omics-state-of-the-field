@@ -10,8 +10,10 @@ Literature analyses for "State of the Field in Multi-Omics Research: From Comput
 
 **Figure X**. Characterisation of multi-omics literature based on a systematic screen of PubMed indexed articles (up to July 2020).
 The details of the methods with reproducible code are available at [github.com/krassowski/multi-omics-state-of-the-field](https://github.com/krassowski/multi-omics-state-of-the-field).
-The comprehensive search terms (see the online repository for details) were collapsed into four categories; _integrated omics_ (*) 
-includes _integromics_ and _integrative_ omics, _multi-view_ (\*\*) includes multi-view|block|source|modal omics, _other terms_ (\*\*\*) include pan-, trans-, poly-, cross-omics.
+The comprehensive search terms (see the online repository for details) were collapsed into four categories;
+_integrated omics_ (*) includes _integromics_ and _integrative_ omics,
+_multi-view_ (\*\*) includes multi-view|block|source|modal omics,
+_other terms_ (\*\*\*) include pan-, trans-, poly-, cross-omics.
 
 The subpanels present:
 - A) Combinations of omics (grouped by the characterised entities) commonly discussed occurring together in multi-omics articles (intersections with degree > 2 and at least 50 papers).
