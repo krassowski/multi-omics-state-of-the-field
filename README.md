@@ -20,13 +20,13 @@ The subpanels present:
 The proteins group (1) also includes peptides; the metabolites group (2) includes other endogenous molecules; the epigenetic group (3) encompasses all epigenetic modifications.
 - B) Trend plot representing the rapidly increasing number of multi-omics articles indexed in PubMed (also after adjusting for the number of articles published in matched journals - data not shown); the dip in 2020 can be attributed to indexing delay which was not accounted for in the current plot.
 - C) Distribution of articles categories that mention different numbers of omics; while it is understandable that multi-omics Reviews category discuss many omics, the Computational method category articles appear to lag behind all other article category types.
-The detected number of omics may underestimate the actual numbers (due to the automated search strategy) but should put useful lower bound on the number of omics discussed.
+The detected number of omics may underestimate the actual numbers (due to the automated search strategy) but should put a useful lower bound on the number of omics discussed.
 Bootstrapped 95% confidence intervals around the mean are presented with the whiskers.
 - D) The number of articles mentioning the most popular clinical findings, disease terms (here screening is based on ClinVar diseases list) and species (based upon NCBI Taxonomy database).
 Both databases were manually filtered down to remove ambiguous terms and merge plural/singular forms.
 Only the abstracts were screened here.
-- E) The detected references to code, data versioning, distribution platforms and systems (links to repositories with deposited code/data); both the abstracts and full-texts (open-access subset, 77% of all articles) were screened.
-No manual curation to classify intend of the link inclusion (i.e. to share authors' code/data vs to report the use of a dataset/tool) was undertaken.
+- E) The detected references to code, data versioning, distribution platforms and systems (links to repositories with deposited code/data); both the abstracts and full-texts (open-access subset, 44% of all articles) were screened.
+No manual curation to classify intent of the link inclusion (i.e. to share authors' code/data vs to report the use of a dataset/tool) was undertaken.
 
 
 ### Methods
