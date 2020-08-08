@@ -42,6 +42,7 @@ The article type was collated from five sources:
   -  ArticleType and
    - Subjects (journal-specific);
 - manual annotation of articles published in Bioinformatics (Oxford, UK) due to lack of methods subject annotations in PMC data for this journal (performed by MK)
+
 The details and code are available in the online repository: https://github.com/krassowski/multi-omics-state-of-the-field.
 
 
