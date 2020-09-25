@@ -37,27 +37,28 @@ The feature extraction was performed via n-gram matching against ClinVar (diseas
 All matches were manually filtered down to exclude false or irrelevant matches and to merge plural forms.
 The article type was collated from five sources:
 - MeSH PublicationType as provided by PubMed,
-- community-maintained list of multi-omics software packages and methods available under https://github.com/mikelove/awesome-multi-omics
+- community-maintained list of multi-omics software packages and methods: [mikelove/awesome-multi-omics](https://github.com/mikelove/awesome-multi-omics),
 - PMC-derived:
-  -  ArticleType and
+   -  ArticleType and
    - Subjects (journal-specific);
 - manual annotation of articles published in Bioinformatics (Oxford, UK) due to lack of methods subject annotations in PMC data for this journal (performed by MK)
 
 
 ### Reproducing
 
-Developed with:
+Prerequisites:
 
 - Ubuntu: 20.04 (x64)
 - Python: 3.8.3
 - R: 3.6.3
 
-To install the minimal requirements for reproduction:
+Install the minimal requirements for reproduction:
 
 ```bash
 pip install -r setup/requirements.txt
 Rscript helpers/restore.R
 ```
+
 
 ### Development and contributing
 
