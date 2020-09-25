@@ -43,10 +43,8 @@ The article type was collated from five sources:
    - Subjects (journal-specific);
 - manual annotation of articles published in Bioinformatics (Oxford, UK) due to lack of methods subject annotations in PMC data for this journal (performed by MK)
 
-The details and code are available in the online repository: https://github.com/krassowski/multi-omics-state-of-the-field.
 
-
-### Setup and requirements
+### Reproducing
 
 Developed with:
 
@@ -54,13 +52,16 @@ Developed with:
 - Python: 3.8.3
 - R: 3.6.3
 
-To install minimal requirements:
+To install the minimal requirements for reproduction:
 
 ```bash
 pip install -r setup/requirements.txt
+Rscript helpers/restore.R
 ```
 
-Additional requirements for development and testing:
+### Development and contributing
+
+Install additional requirements for development and testing:
 
 ```bash
 pip install -r setup/requirements-dev.txt
@@ -70,4 +71,10 @@ Execute tests with:
 
 ```bash
 python3 -m pytest
+```
+
+Freeze (snapshot) R requirements with:
+
+```bash
+Rscript helpers/freeze.R
 ```

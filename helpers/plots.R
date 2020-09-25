@@ -1,3 +1,10 @@
+# just to let renv know we require these packages for plots
+# as it appers it does not screen notebooks yet
+requireNamespace('ggplot2')
+requireNamespace('ggrepel')
+requireNamespace('ComplexUpset')
+
+
 reverse_log_trans <- function(base=10) {
     # CC-BY-SA 4.0 Brian Diggs, modified
     # https://stackoverflow.com/a/11054781
