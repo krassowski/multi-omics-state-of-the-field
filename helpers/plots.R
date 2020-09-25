@@ -2,6 +2,7 @@
 # as it appers it does not screen notebooks yet
 requireNamespace('ggplot2')
 requireNamespace('ggrepel')
+requireNamespace('shadowtext')
 requireNamespace('ComplexUpset')
 
 

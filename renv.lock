@@ -328,6 +328,13 @@
       "Repository": "CRAN",
       "Hash": "6f76f71042411426ec8df6c54f34e6dd"
     },
+    "shadowtext": {
+      "Package": "shadowtext",
+      "Version": "0.0.7",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "59c332a398fa940a85094cf3bbcb4443"
+    },
     "testthat": {
       "Package": "testthat",
       "Version": "2.3.2",
