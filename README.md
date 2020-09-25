@@ -6,10 +6,10 @@ Literature analyses for "State of the Field in Multi-Omics Research: From Comput
 
 ## Overview
 
-![image](https://user-images.githubusercontent.com/5832902/89242343-3f12ef80-d5f9-11ea-96b3-5fe06dfd0e4d.png)
+[![Click to go to the PDF version](https://user-images.githubusercontent.com/5832902/89242343-3f12ef80-d5f9-11ea-96b3-5fe06dfd0e4d.png)](https://github.com/krassowski/multi-omics-state-of-the-field/blob/master/figures/overview.pdf)
 
-**Figure X**. Characterization of multi-omics literature based on a systematic screen of PubMed indexed articles (up to July 2020).
-The details of the methods with reproducible code are available at [github.com/krassowski/multi-omics-state-of-the-field](./figures/overview.png).
+**Figure**. Characterization of multi-omics literature based on a systematic screen of PubMed indexed articles (up to July 2020).
+
 The comprehensive search terms (see the online repository for details) were collapsed into four categories;
 _integrated omics_ (*) includes _integromics_ and _integrative_ omics,
 _multi-view_ (\*\*) includes multi-view|block|source|modal omics,
