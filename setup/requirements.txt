@@ -1,8 +1,8 @@
-pandas
-rpy2
-matplotlib
-scipy
+pandas==1.0.4
+rpy2==3.3.3
+matplotlib==3.2.1
+scipy==1.4.1
 #display_xml
 #sklearn
 #umap-learn
-data-vault
+data-vault==0.4.1
