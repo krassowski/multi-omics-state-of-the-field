@@ -6,7 +6,7 @@ Literature analyses for "State of the Field in Multi-Omics Research: From Comput
 
 ## Overview
 
-[![Overview figure - click to go to the PDF version](../blob/master/figures/overview.png?raw=true)](https://github.com/krassowski/multi-omics-state-of-the-field/blob/master/figures/overview.pdf)
+[![Overview figure - click to go to the PDF version](https://github.com/krassowski/multi-omics-state-of-the-field/blob/master/figures/overview.png?raw=true)](https://github.com/krassowski/multi-omics-state-of-the-field/blob/master/figures/overview.pdf)
 
 **Figure**. Characterization of multi-omics literature based on a systematic screen of PubMed indexed articles (up to July 2020).
 
