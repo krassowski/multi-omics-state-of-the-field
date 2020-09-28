@@ -51,9 +51,9 @@ The article type was collated from five sources:
 
 #### Code overview
 
-![Overview of the notebooks in the repository](https://github.com/krassowski/multi-omics-state-of-the-field/blob/master/figures/repository.svg)
+[![Overview of the notebooks in the repository](https://github.com/krassowski/multi-omics-state-of-the-field/blob/master/figures/repository.svg)](https://raw.githubusercontent.com/krassowski/multi-omics-state-of-the-field/master/figures/repository.svg)
 
-**Figure 3**. Overview of the notebooks in this code repository
+**Figure 3**. Overview of the notebooks in this code repository. Click on the plot to display an interactive version, from where you can open respective notebooks by clickng on the analysis nodes.
 
 
 ### Reproducing
