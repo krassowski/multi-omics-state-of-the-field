@@ -28,12 +28,6 @@ Only the abstracts were screened here.
 - E) The detected references to code, data versioning, distribution platforms and systems (links to repositories with deposited code/data); both the abstracts and full-texts (open-access subset, 44% of all articles) were screened.
 No manual curation to classify intent of the link inclusion (i.e. to share authors' code/data vs to report the use of a dataset/tool) was undertaken.
 
-### Flow diagram
-
-<img src="https://github.com/krassowski/multi-omics-state-of-the-field/blob/master/figures/flowchart.png?raw=true" title="Flowchart with counts" width=500>
-
-**Figure 2**. A flow diagram of the semi-automated multi-omics literature screening effort (up to July 2020).
-
 ### Methods
 
 PubMed database was searched for articles pertaining to multi-omics on 25th July 2020, using fourteen terms (multi|pan|trans|poly|cross-omics, multi-table|source|view|modal|block omics, integrative omics, integrated omics and integromics) including plural/singular and hyphenated/unhyphenated variants combinations.
@@ -48,10 +42,18 @@ The article type was collated from five sources:
    - Subjects (journal-specific);
 - manual annotation of articles published in Bioinformatics (Oxford, UK) due to lack of methods subject annotations in PMC data for this journal (performed by MK)
 
+#### Flow diagram
 
-### Code overview
+<img src="https://github.com/krassowski/multi-omics-state-of-the-field/blob/master/figures/flowchart.png?raw=true" title="Flowchart with counts" width=500>
 
-![](https://github.com/krassowski/multi-omics-state-of-the-field/blob/master/figures/repository.svg)
+**Figure 2**. A flow diagram of the semi-automated multi-omics literature screening effort (up to July 2020).
+
+
+#### Code overview
+
+![Overview of the notebooks in the repository](https://github.com/krassowski/multi-omics-state-of-the-field/blob/master/figures/repository.svg)
+
+**Figure 3**. Overview of the notebooks in this code repository
 
 
 ### Reproducing
