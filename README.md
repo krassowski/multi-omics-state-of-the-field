@@ -2,13 +2,13 @@
 
 [![Build Status](https://travis-ci.com/krassowski/multi-omics-state-of-the-field.svg?token=JhArfvq99eozHLbsktv8&branch=master)](https://travis-ci.com/krassowski/multi-omics-state-of-the-field)
 
-Literature analyses for "State of the Field in Multi-Omics Research: From Computational Needs to Data Mining and Sharing"
+Analyses for "State of the Field in Multi-Omics Research: From Computational Needs to Data Mining and Sharing"
 
 ## Overview
 
 [![Overview figure - click to go to the PDF version](https://github.com/krassowski/multi-omics-state-of-the-field/blob/master/figures/overview.png?raw=true)](https://github.com/krassowski/multi-omics-state-of-the-field/blob/master/figures/overview.pdf)
 
-**Figure**. Characterization of multi-omics literature based on a systematic screen of PubMed indexed articles (up to July 2020).
+**Figure 1**. Characterization of multi-omics literature based on a systematic screen of PubMed indexed articles (up to July 2020).
 
 The comprehensive search terms (see the online repository for details) were collapsed into four categories;
 _integrated omics_ (*) includes _integromics_ and _integrative_ omics,
@@ -28,6 +28,11 @@ Only the abstracts were screened here.
 - E) The detected references to code, data versioning, distribution platforms and systems (links to repositories with deposited code/data); both the abstracts and full-texts (open-access subset, 44% of all articles) were screened.
 No manual curation to classify intent of the link inclusion (i.e. to share authors' code/data vs to report the use of a dataset/tool) was undertaken.
 
+### Flow diagram
+
+<img src="https://github.com/krassowski/multi-omics-state-of-the-field/blob/master/figures/flowchart.png?raw=true" title="Flowchart with counts" width=500>
+
+**Figure 2**. A flow diagram of the semi-automated multi-omics literature screening effort (up to July 2020).
 
 ### Methods
 
@@ -42,6 +47,11 @@ The article type was collated from five sources:
    -  ArticleType and
    - Subjects (journal-specific);
 - manual annotation of articles published in Bioinformatics (Oxford, UK) due to lack of methods subject annotations in PMC data for this journal (performed by MK)
+
+
+### Code overview
+
+![](https://github.com/krassowski/multi-omics-state-of-the-field/blob/master/figures/repository.svg)
 
 
 ### Reproducing
@@ -78,4 +88,11 @@ Freeze (snapshot) R requirements with:
 
 ```bash
 Rscript helpers/freeze.R
+```
+
+Create the repository overview graph:
+
+```bash
+pip install nbpipeline
+PYTHONPATH=$(pwd):$PYTHONPATH nbpipeline --dry_run -s -O figures/repository.svg --display_graph_with none
 ```
