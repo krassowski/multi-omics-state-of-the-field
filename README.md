@@ -64,11 +64,12 @@ Prerequisites:
 - Python: 3.8.3
 - R: 3.6.3
 
-Install the minimal requirements for reproduction:
+Install the minimal requirements for reproduction and download required data:
 
 ```bash
 pip install -r setup/requirements.txt
 Rscript helpers/restore.R
+./data/download.sh
 ```
 
 
