@@ -69,7 +69,8 @@ Install the minimal requirements for reproduction and download required data:
 ```bash
 pip install -r setup/requirements.txt
 Rscript helpers/restore.R
-./data/download.sh
+cd data
+./download.sh
 ```
 
 
