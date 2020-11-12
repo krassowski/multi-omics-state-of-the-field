@@ -2,7 +2,7 @@ pandas==1.0.4
 rpy2==3.3.3
 matplotlib==3.2.1
 scipy==1.4.1
-easy-entrez==0.1.0
+easy-entrez==0.1.2
 #display_xml
 #sklearn
 #umap-learn
