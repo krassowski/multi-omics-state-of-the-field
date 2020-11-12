@@ -3,6 +3,7 @@ channels:
 dependencies:
   - python=3.8.3
   - r-base=3.6.3
+  - libgomp # required for rpy2
   # Python dependencies
   - pip
   - pip:
