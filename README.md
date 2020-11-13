@@ -1,7 +1,7 @@
 # Multi-omics: state of the field
 
 [![Build Status](https://travis-ci.com/krassowski/multi-omics-state-of-the-field.svg?token=JhArfvq99eozHLbsktv8&branch=master)](https://travis-ci.com/krassowski/multi-omics-state-of-the-field)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/krassowski/multi-omics-state-of-the-field/HEAD?urlpath=lab/tree/notebooks/)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/krassowski/multi-omics-state-of-the-field/HEAD?urlpath=lab/tree/notebooks)
 
 Analyses for "State of the Field in Multi-Omics Research: From Computational Needs to Data Mining and Sharing"
 
