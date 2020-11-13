@@ -17,7 +17,7 @@
 <!-- &lt;NotebookRule &#39;Omics terms&#39; with 2 inputs and 1 outputs&gt; -->
 <g id="node1" class="node">
 <title>&lt;NotebookRule &#39;Omics terms&#39; with 2 inputs and 1 outputs&gt;</title>
-<g id="a_node1_0"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/Omics_terms.ipynb" xlink:title="Omics_terms.ipynb">
+<g id="a_node1_0"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/notebooks/Omics_terms.ipynb" xlink:title="Omics_terms.ipynb">
 <polygon fill="none" stroke="black" points="766.5,-414.5 766.5,-435.5 851.5,-435.5 851.5,-414.5 766.5,-414.5"/>
 <text text-anchor="start" x="769.5" y="-421.3" font-family="Arial, sans-serf" font-size="14.00">Omics terms</text>
 </a>
@@ -40,7 +40,7 @@
 <!-- &lt;NotebookRule &#39;Overview&#39; with 7 inputs&gt; -->
 <g id="node3" class="node">
 <title>&lt;NotebookRule &#39;Overview&#39; with 7 inputs&gt;</title>
-<g id="a_node3_1"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/Overview.ipynb" xlink:title="Overview.ipynb">
+<g id="a_node3_1"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/notebooks/Overview.ipynb" xlink:title="Overview.ipynb">
 <polygon fill="none" stroke="black" points="1116.5,-345.5 1116.5,-366.5 1180.5,-366.5 1180.5,-345.5 1116.5,-345.5"/>
 <text text-anchor="start" x="1119.5" y="-352.3" font-family="Arial, sans-serf" font-size="14.00">Overview</text>
 </a>
@@ -56,7 +56,7 @@
 <!-- &lt;NotebookRule &#39;Flowchart&#39; with 5 inputs&gt; -->
 <g id="node4" class="node">
 <title>&lt;NotebookRule &#39;Flowchart&#39; with 5 inputs&gt;</title>
-<g id="a_node4_2"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/Flowchart.ipynb" xlink:title="Flowchart.ipynb">
+<g id="a_node4_2"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/notebooks/Flowchart.ipynb" xlink:title="Flowchart.ipynb">
 <polygon fill="none" stroke="black" points="1116.5,-486.5 1116.5,-507.5 1181.5,-507.5 1181.5,-486.5 1116.5,-486.5"/>
 <text text-anchor="start" x="1119.5" y="-493.3" font-family="Arial, sans-serf" font-size="14.00">Flowchart</text>
 </a>
@@ -97,7 +97,7 @@
 <!-- &lt;NotebookRule &#39;Exploration&#39; with 6 inputs&gt; -->
 <g id="node6" class="node">
 <title>&lt;NotebookRule &#39;Exploration&#39; with 6 inputs&gt;</title>
-<g id="a_node6_3"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/Exploration.ipynb" xlink:title="Exploration.ipynb">
+<g id="a_node6_3"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/notebooks/Exploration.ipynb" xlink:title="Exploration.ipynb">
 <polygon fill="none" stroke="black" points="380,-373.5 380,-394.5 454,-394.5 454,-373.5 380,-373.5"/>
 <text text-anchor="start" x="383" y="-380.3" font-family="Arial, sans-serf" font-size="14.00">Exploration</text>
 </a>
@@ -113,7 +113,7 @@
 <!-- &lt;NotebookRule &#39;Source code&#39; with 1 inputs and 1 outputs&gt; -->
 <g id="node7" class="node">
 <title>&lt;NotebookRule &#39;Source code&#39; with 1 inputs and 1 outputs&gt;</title>
-<g id="a_node7_4"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/Source_code.ipynb" xlink:title="Source_code.ipynb">
+<g id="a_node7_4"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/notebooks/Source_code.ipynb" xlink:title="Source_code.ipynb">
 <polygon fill="none" stroke="black" points="376,-414.5 376,-435.5 458,-435.5 458,-414.5 376,-414.5"/>
 <text text-anchor="start" x="379" y="-421.3" font-family="Arial, sans-serf" font-size="14.00">Source code</text>
 </a>
@@ -129,7 +129,7 @@
 <!-- &lt;NotebookRule &#39;Feature engineering&#39; with 1 inputs and 1 outputs&gt; -->
 <g id="node8" class="node">
 <title>&lt;NotebookRule &#39;Feature engineering&#39; with 1 inputs and 1 outputs&gt;</title>
-<g id="a_node8_5"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/Feature_engineering.ipynb" xlink:title="Feature_engineering.ipynb">
+<g id="a_node8_5"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/notebooks/Feature_engineering.ipynb" xlink:title="Feature_engineering.ipynb">
 <polygon fill="none" stroke="black" points="574,-532.5 574,-553.5 701,-553.5 701,-532.5 574,-532.5"/>
 <text text-anchor="start" x="577" y="-539.3" font-family="Arial, sans-serf" font-size="14.00">Feature engineering</text>
 </a>
@@ -184,7 +184,7 @@
 <!-- &lt;NotebookRule &#39;Article types&#39; with 3 inputs and 2 outputs&gt; -->
 <g id="node10" class="node">
 <title>&lt;NotebookRule &#39;Article types&#39; with 3 inputs and 2 outputs&gt;</title>
-<g id="a_node10_6"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/Article_types.ipynb" xlink:title="Article_types.ipynb">
+<g id="a_node10_6"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/notebooks/Article_types.ipynb" xlink:title="Article_types.ipynb">
 <polygon fill="none" stroke="black" points="768.5,-284.5 768.5,-305.5 848.5,-305.5 848.5,-284.5 768.5,-284.5"/>
 <text text-anchor="start" x="771.5" y="-291.3" font-family="Arial, sans-serf" font-size="14.00">Article types</text>
 </a>
@@ -238,7 +238,7 @@
 <!-- &lt;NotebookRule &#39;Diseases and datasets&#39; with 5 inputs&gt; -->
 <g id="node13" class="node">
 <title>&lt;NotebookRule &#39;Diseases and datasets&#39; with 5 inputs&gt;</title>
-<g id="a_node13_7"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/Diseases_and_datasets.ipynb" xlink:title="Diseases_and_datasets.ipynb">
+<g id="a_node13_7"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/notebooks/Diseases_and_datasets.ipynb" xlink:title="Diseases_and_datasets.ipynb">
 <polygon fill="none" stroke="black" points="1077.5,-121.5 1077.5,-142.5 1220.5,-142.5 1220.5,-121.5 1077.5,-121.5"/>
 <text text-anchor="start" x="1080.5" y="-128.3" font-family="Arial, sans-serf" font-size="14.00">Diseases and datasets</text>
 </a>
@@ -422,7 +422,7 @@
 <!-- &lt;NotebookRule &#39;Journals&#39; with 2 outputs&gt; -->
 <g id="node25" class="node">
 <title>&lt;NotebookRule &#39;Journals&#39; with 2 outputs&gt;</title>
-<g id="a_node25_8"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/Journals.ipynb" xlink:title="Journals.ipynb">
+<g id="a_node25_8"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/notebooks/Journals.ipynb" xlink:title="Journals.ipynb">
 <polygon fill="none" stroke="black" points="19,-457.5 19,-478.5 77,-478.5 77,-457.5 19,-457.5"/>
 <text text-anchor="start" x="22" y="-464.3" font-family="Arial, sans-serf" font-size="14.00">Journals</text>
 </a>
@@ -444,7 +444,7 @@
 <!-- &lt;NotebookRule &#39;Literature data&#39; with 9 outputs&gt; -->
 <g id="node26" class="node">
 <title>&lt;NotebookRule &#39;Literature data&#39; with 9 outputs&gt;</title>
-<g id="a_node26_9"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/Literature_data.ipynb" xlink:title="Literature_data.ipynb">
+<g id="a_node26_9"><a xlink:href="https://github.com/krassowski/multi-omics-state-of-the-art/blob/master/notebooks/Literature_data.ipynb" xlink:title="Literature_data.ipynb">
 <polygon fill="none" stroke="black" points="1,-214.5 1,-235.5 95,-235.5 95,-214.5 1,-214.5"/>
 <text text-anchor="start" x="4" y="-221.3" font-family="Arial, sans-serf" font-size="14.00">Literature data</text>
 </a>
