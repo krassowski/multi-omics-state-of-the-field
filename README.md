@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.com/krassowski/multi-omics-state-of-the-field.svg?token=JhArfvq99eozHLbsktv8&branch=master)](https://travis-ci.com/krassowski/multi-omics-state-of-the-field)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/krassowski/multi-omics-state-of-the-field/HEAD?urlpath=lab/tree/notebooks)
 
-Analyses for "State of the Field in Multi-Omics Research: From Computational Needs to Data Mining and Sharing"
+Analyses for [State of the Field in Multi-Omics Research: From Computational Needs to Data Mining and Sharing](https://doi.org/10.3389/fgene.2020.610798) article.
 
 ## Overview
 
@@ -55,6 +55,13 @@ The article type was collated from five sources:
 [![Overview of the notebooks in the repository](https://github.com/krassowski/multi-omics-state-of-the-field/blob/master/figures/repository.svg)](https://raw.githubusercontent.com/krassowski/multi-omics-state-of-the-field/master/figures/repository.svg)
 
 **Figure 3**. Overview of the notebooks in this code repository. Click on the plot to display an interactive version, from where you can open respective notebooks by clicking on the analysis nodes.
+
+
+### Reference
+
+This analysis was contributed to our [introductory review of multi-omics field](https://doi.org/10.3389/fgene.2020.610798), now published in Frontiers in Genetics (open access):
+
+> Krassowski M, Das V, Sahu SK and Misra BB (2020) State of the Field in Multi-Omics Research: From Computational Needs to Data Mining and Sharing. Front. Genet. 11:610798. doi: 10.3389/fgene.2020.610798
 
 
 ### Reproducing
