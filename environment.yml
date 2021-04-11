@@ -16,4 +16,5 @@ dependencies:
   # R dependencies
   - r-ggplot2=3.3.2
   - r-patchwork=1.1.0
-  - r-ggrepel
+  - r-complexupset=1.2.0
+  - r-ggrepel=0.9.0
