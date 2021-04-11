@@ -19,3 +19,4 @@ dependencies:
   - r-patchwork=1.1.0
   - r-complexupset=1.2.0
   - r-ggrepel=0.9.0
+  - r-shadowtext=0.0.7
